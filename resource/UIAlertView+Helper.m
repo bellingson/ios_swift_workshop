@@ -2,7 +2,7 @@
 //  UIAlertView+Helper.m
 //  NoFluff
 //
-//  Created by Ben Ellingson on 3/12/12.
+//  Created by Benjamin Ellingson on 3/12/12.
 //  Copyright (c) 2012 Northstar New Media. All rights reserved.
 //
 

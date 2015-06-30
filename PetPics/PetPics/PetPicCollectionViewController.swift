@@ -35,17 +35,12 @@ class PetPicCollectionViewController: UICollectionViewController {
         
         // println(NSString(data: jsonData!, encoding: NSUTF8StringEncoding))
         
-       // println(jsonString)
-        
         if let json = NSJSONSerialization.JSONObjectWithData(jsonData!, options: nil, error: nil) as? NSDictionary {
             
             if let photosJson = json["photos"] as? NSDictionary {
                 pets = photosJson["photo"] as? [NSDictionary]                
             }
-        }
-        
-
-        
+        }            
         
     }
     
