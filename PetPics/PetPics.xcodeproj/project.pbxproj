@@ -11,12 +11,18 @@
 		B5C8E8C71B418A1500C2038A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C8E8C51B418A1500C2038A /* Main.storyboard */; };
 		B5C8E8C91B418A1500C2038A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C8E8C81B418A1500C2038A /* Images.xcassets */; };
 		B5C8E8CC1B418A1500C2038A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C8E8CA1B418A1500C2038A /* LaunchScreen.xib */; };
-		B5C8E8D81B418A1500C2038A /* PetPicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8D71B418A1500C2038A /* PetPicsTests.swift */; };
 		B5C8E8E21B418A9200C2038A /* PetTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E11B418A9200C2038A /* PetTypeTableViewController.swift */; };
 		B5C8E8E41B418C6900C2038A /* PetPicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E31B418C6900C2038A /* PetPicCollectionViewController.swift */; };
 		B5C8E8E61B41920700C2038A /* PetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E51B41920700C2038A /* PetCollectionViewCell.swift */; };
 		B5C8E8E81B419A3600C2038A /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E71B419A3600C2038A /* PetViewController.swift */; };
 		B5C8E8EA1B419C8600C2038A /* UIViewController+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E91B419C8600C2038A /* UIViewController+Background.swift */; };
+		B5C8E8F21B42F4EA00C2038A /* PetTypeTableViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8F11B42F4EA00C2038A /* PetTypeTableViewControllerTest.swift */; };
+		B5C8E8F31B42F53600C2038A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C8E8C51B418A1500C2038A /* Main.storyboard */; };
+		B5C8E8F41B42F57F00C2038A /* PetTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E11B418A9200C2038A /* PetTypeTableViewController.swift */; };
+		B5C8E8F51B42F59000C2038A /* PetPicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E31B418C6900C2038A /* PetPicCollectionViewController.swift */; };
+		B5C8E8F61B42F59A00C2038A /* UIViewController+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E91B419C8600C2038A /* UIViewController+Background.swift */; };
+		B5C8E8F71B42F5AE00C2038A /* PetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E51B41920700C2038A /* PetCollectionViewCell.swift */; };
+		B5C8E8F81B42F5B700C2038A /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E71B419A3600C2038A /* PetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +44,13 @@
 		B5C8E8CB1B418A1500C2038A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B5C8E8D11B418A1500C2038A /* PetPicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetPicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C8E8D61B418A1500C2038A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5C8E8D71B418A1500C2038A /* PetPicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPicsTests.swift; sourceTree = "<group>"; };
 		B5C8E8E11B418A9200C2038A /* PetTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTypeTableViewController.swift; sourceTree = "<group>"; };
 		B5C8E8E31B418C6900C2038A /* PetPicCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetPicCollectionViewController.swift; sourceTree = "<group>"; };
 		B5C8E8E51B41920700C2038A /* PetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCollectionViewCell.swift; sourceTree = "<group>"; };
 		B5C8E8E71B419A3600C2038A /* PetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetViewController.swift; sourceTree = "<group>"; };
 		B5C8E8E91B419C8600C2038A /* UIViewController+Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Background.swift"; sourceTree = "<group>"; };
+		B5C8E8F01B42F4E900C2038A /* PetPicsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PetPicsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5C8E8F11B42F4EA00C2038A /* PetTypeTableViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTypeTableViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +117,9 @@
 		B5C8E8D41B418A1500C2038A /* PetPicsTests */ = {
 			isa = PBXGroup;
 			children = (
-				B5C8E8D71B418A1500C2038A /* PetPicsTests.swift */,
 				B5C8E8D51B418A1500C2038A /* Supporting Files */,
+				B5C8E8F11B42F4EA00C2038A /* PetTypeTableViewControllerTest.swift */,
+				B5C8E8F01B42F4E900C2038A /* PetPicsTests-Bridging-Header.h */,
 			);
 			path = PetPicsTests;
 			sourceTree = "<group>";
@@ -214,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C8E8F31B42F53600C2038A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C8E8D81B418A1500C2038A /* PetPicsTests.swift in Sources */,
+				B5C8E8F61B42F59A00C2038A /* UIViewController+Background.swift in Sources */,
+				B5C8E8F71B42F5AE00C2038A /* PetCollectionViewCell.swift in Sources */,
+				B5C8E8F51B42F59000C2038A /* PetPicCollectionViewController.swift in Sources */,
+				B5C8E8F41B42F57F00C2038A /* PetTypeTableViewController.swift in Sources */,
+				B5C8E8F81B42F5B700C2038A /* PetViewController.swift in Sources */,
+				B5C8E8F21B42F4EA00C2038A /* PetTypeTableViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -389,6 +404,8 @@
 				INFOPLIST_FILE = PetPicsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetPicsTests/PetPicsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetPics.app/PetPics";
 			};
 			name = Debug;
@@ -397,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -404,6 +422,7 @@
 				INFOPLIST_FILE = PetPicsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetPicsTests/PetPicsTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetPics.app/PetPics";
 			};
 			name = Release;
@@ -427,6 +446,7 @@
 				B5C8E8DD1B418A1500C2038A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C8E8DE1B418A1500C2038A /* Build configuration list for PBXNativeTarget "PetPicsTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +455,7 @@
 				B5C8E8E01B418A1500C2038A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

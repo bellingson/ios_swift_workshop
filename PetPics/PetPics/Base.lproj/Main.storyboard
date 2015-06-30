@@ -8,7 +8,7 @@
         <!--Pet Type Table View Controller-->
         <scene sceneID="lAN-Mv-ULI">
             <objects>
-                <tableViewController id="1vU-C8-0aW" customClass="PetTypeTableViewController" customModule="PetPics" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="PetTypeVC" id="1vU-C8-0aW" customClass="PetTypeTableViewController" customModule="PetPics" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Kpn-gl-fNp">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
