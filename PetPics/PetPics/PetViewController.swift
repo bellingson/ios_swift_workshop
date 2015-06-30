@@ -30,9 +30,12 @@ class PetViewController: UIViewController {
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   
+    @IBAction func testAlertTouched(sender: AnyObject) {
+        
+        
+        UIAlertView.showAlert("Alert", message: "This is a test!")
+        
     }
     
 }

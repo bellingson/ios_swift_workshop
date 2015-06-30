@@ -23,6 +23,7 @@
 		B5C8E8F61B42F59A00C2038A /* UIViewController+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E91B419C8600C2038A /* UIViewController+Background.swift */; };
 		B5C8E8F71B42F5AE00C2038A /* PetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E51B41920700C2038A /* PetCollectionViewCell.swift */; };
 		B5C8E8F81B42F5B700C2038A /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E8E71B419A3600C2038A /* PetViewController.swift */; };
+		B5C8E93A1B430E0900C2038A /* UIAlertView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E9391B430E0900C2038A /* UIAlertView+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		B5C8E8E91B419C8600C2038A /* UIViewController+Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Background.swift"; sourceTree = "<group>"; };
 		B5C8E8F01B42F4E900C2038A /* PetPicsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PetPicsTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		B5C8E8F11B42F4EA00C2038A /* PetTypeTableViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTypeTableViewControllerTest.swift; sourceTree = "<group>"; };
+		B5C8E9331B430BD300C2038A /* PetPics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PetPics-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5C8E9381B430E0900C2038A /* UIAlertView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Helper.h"; sourceTree = "<group>"; };
+		B5C8E9391B430E0900C2038A /* UIAlertView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,9 @@
 				B5C8E8C81B418A1500C2038A /* Images.xcassets */,
 				B5C8E8CA1B418A1500C2038A /* LaunchScreen.xib */,
 				B5C8E8BF1B418A1500C2038A /* Supporting Files */,
+				B5C8E9381B430E0900C2038A /* UIAlertView+Helper.h */,
+				B5C8E9391B430E0900C2038A /* UIAlertView+Helper.m */,
+				B5C8E9331B430BD300C2038A /* PetPics-Bridging-Header.h */,
 			);
 			path = PetPics;
 			sourceTree = "<group>";
@@ -235,6 +242,7 @@
 			files = (
 				B5C8E8E41B418C6900C2038A /* PetPicCollectionViewController.swift in Sources */,
 				B5C8E8C21B418A1500C2038A /* AppDelegate.swift in Sources */,
+				B5C8E93A1B430E0900C2038A /* UIAlertView+Helper.m in Sources */,
 				B5C8E8EA1B419C8600C2038A /* UIViewController+Background.swift in Sources */,
 				B5C8E8E61B41920700C2038A /* PetCollectionViewCell.swift in Sources */,
 				B5C8E8E21B418A9200C2038A /* PetTypeTableViewController.swift in Sources */,
@@ -372,9 +380,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PetPics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetPics/PetPics-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -382,9 +393,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PetPics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetPics/PetPics-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -404,7 +417,7 @@
 				INFOPLIST_FILE = PetPicsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PetPicsTests/PetPicsTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetPics/PetPics-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetPics.app/PetPics";
 			};
@@ -422,7 +435,7 @@
 				INFOPLIST_FILE = PetPicsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PetPicsTests/PetPicsTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetPics/PetPics-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetPics.app/PetPics";
 			};
 			name = Release;

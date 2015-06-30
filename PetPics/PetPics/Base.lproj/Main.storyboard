@@ -107,11 +107,22 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kF-wQ-G4U">
+                                <rect key="frame" x="511" y="550" width="64" height="30"/>
+                                <state key="normal" title="Test Alert">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testAlertTouched:" destination="aGW-7J-mbG" eventType="touchUpInside" id="mJn-3P-eXQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="nTe-5K-tsx" firstAttribute="leading" secondItem="ikI-iW-yOT" secondAttribute="leadingMargin" constant="-16" id="GoA-qj-E4W"/>
                             <constraint firstItem="0Zk-Lb-s2l" firstAttribute="top" secondItem="nTe-5K-tsx" secondAttribute="bottom" id="PaF-Ux-gkR"/>
+                            <constraint firstItem="0Zk-Lb-s2l" firstAttribute="top" secondItem="6kF-wQ-G4U" secondAttribute="bottom" constant="20" id="Zwf-90-2RV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6kF-wQ-G4U" secondAttribute="trailing" constant="9" id="fNx-Kj-7e9"/>
                             <constraint firstItem="nTe-5K-tsx" firstAttribute="top" secondItem="jMn-gi-pJ3" secondAttribute="bottom" id="kiU-bP-F9a"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nTe-5K-tsx" secondAttribute="trailing" constant="-21" id="xGA-Ds-2Jn"/>
                         </constraints>
