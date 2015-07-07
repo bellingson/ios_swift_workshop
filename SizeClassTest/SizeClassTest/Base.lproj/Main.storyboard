@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SizeClassTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TbW-s9-Lr2">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GSL-Bh-3RQ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="1" green="0.14208641529999999" blue="0.1074803829" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TbW-s9-Lr2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1df-Qd-yzD"/>
+                            <constraint firstItem="TbW-s9-Lr2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1m1-Ui-9TO"/>
+                            <constraint firstAttribute="trailing" secondItem="TbW-s9-Lr2" secondAttribute="trailing" id="FDU-Du-pa1"/>
+                            <constraint firstItem="GSL-Bh-3RQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Gdp-xZ-Mm3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TbW-s9-Lr2" secondAttribute="bottom" id="Hjy-OC-duz"/>
+                            <constraint firstItem="GSL-Bh-3RQ" firstAttribute="leading" secondItem="TbW-s9-Lr2" secondAttribute="trailing" id="bRq-Rf-eKO"/>
+                            <constraint firstItem="TbW-s9-Lr2" firstAttribute="width" secondItem="GSL-Bh-3RQ" secondAttribute="width" id="dwD-T0-edl"/>
+                            <constraint firstAttribute="trailing" secondItem="GSL-Bh-3RQ" secondAttribute="trailing" id="mfn-e1-XSA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GSL-Bh-3RQ" secondAttribute="bottom" id="v60-8G-LUR"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="GSL-Bh-3RQ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="dwD-T0-edl"/>
+                                <exclude reference="Gdp-xZ-Mm3"/>
+                                <exclude reference="bRq-Rf-eKO"/>
+                                <exclude reference="mfn-e1-XSA"/>
+                                <exclude reference="v60-8G-LUR"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="GSL-Bh-3RQ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="FDU-Du-pa1"/>
+                                <include reference="dwD-T0-edl"/>
+                                <include reference="Gdp-xZ-Mm3"/>
+                                <include reference="bRq-Rf-eKO"/>
+                                <include reference="mfn-e1-XSA"/>
+                                <include reference="v60-8G-LUR"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439.5" y="429"/>
+        </scene>
+    </scenes>
+</document>
