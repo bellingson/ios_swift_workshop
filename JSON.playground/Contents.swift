@@ -16,12 +16,12 @@ if let err = error {
 }
 
 // optional chaining with ? fails gracefully
-if let name = json?.objectForKey("name") as? String {
+if let name = json?["name"] as? String {
     println("Hello \(name)")
 }
 
 // forced unwrapping fails with runtime error
-if let name = json!.objectForKey("name") as? String {
+if let name = json!["name"] as? String {
     println("Hello \(name)")
 }
 
