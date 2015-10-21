@@ -35,11 +35,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func loadWebView() {
         
-        let url = NSURL(string: urlField.text)
+        if let urlString = urlField.text {
         
-        let urlRequest = NSURLRequest(URL: url!)
-        
-        webView.loadRequest(urlRequest)
+            let url = NSURL(string: urlString)
+            
+            let urlRequest = NSURLRequest(URL: url!)
+            
+            webView.loadRequest(urlRequest)
+        }
         
         
     }

@@ -5,24 +5,22 @@ let jsonString = "{ \"name\": \"Bob Smith\", \"email\": \"bob@hotmail.com\" }"
 
 let jsonData = jsonString.dataUsingEncoding(NSUTF8StringEncoding) as NSData!
 
-var error: NSError?
+var json: NSDictionary?
 
-let json: NSDictionary? = NSJSONSerialization.JSONObjectWithData(jsonData,
-                                                    options: nil,
-                                                    error: &error) as? NSDictionary
-
-if let err = error {
-    println("parse json error: \(err.localizedDescription)")
+do {
+    try json = NSJSONSerialization.JSONObjectWithData(jsonData, options: []) as? NSDictionary
+} catch let error as NSError {
+    print("parse json error: \(error.localizedDescription)")
 }
 
 // optional chaining with ? fails gracefully
 if let name = json?["name"] as? String {
-    println("Hello \(name)")
+    print("Hello \(name)")
 }
 
 // forced unwrapping fails with runtime error
 if let name = json!["name"] as? String {
-    println("Hello \(name)")
+    print("Hello \(name)")
 }
 
 

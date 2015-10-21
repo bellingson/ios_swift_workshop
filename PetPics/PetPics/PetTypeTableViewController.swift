@@ -29,7 +29,7 @@ class PetTypeTableViewController: UITableViewController {
 
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("petType", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("petType", forIndexPath: indexPath) 
         
         cell.textLabel?.text = petType[indexPath.row]
 
@@ -42,7 +42,7 @@ class PetTypeTableViewController: UITableViewController {
         if segue.identifier == "petPics" {
             
             let petPicsCtrl = segue.destinationViewController as? PetPicCollectionViewController
-            let row = tableView.indexPathForSelectedRow()?.row
+            let row = tableView.indexPathForSelectedRow?.row
             petPicsCtrl?.pet = petType[row!]
             
         }

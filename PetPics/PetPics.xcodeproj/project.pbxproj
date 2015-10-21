@@ -183,6 +183,8 @@
 		B5C8E8B41B418A1500C2038A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = NNM;
 				TargetAttributes = {

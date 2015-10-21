@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,13 +19,16 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TbW-s9-Lr2">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GSL-Bh-3RQ">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
                                 <color key="backgroundColor" red="1" green="0.14208641529999999" blue="0.1074803829" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="TbW-s9-Lr2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1df-Qd-yzD"/>
@@ -42,10 +46,10 @@
                                 <exclude reference="GSL-Bh-3RQ"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="dwD-T0-edl"/>
                                 <exclude reference="Gdp-xZ-Mm3"/>
                                 <exclude reference="bRq-Rf-eKO"/>
                                 <exclude reference="mfn-e1-XSA"/>
+                                <exclude reference="dwD-T0-edl"/>
                                 <exclude reference="v60-8G-LUR"/>
                             </mask>
                         </variation>
@@ -54,11 +58,11 @@
                                 <include reference="GSL-Bh-3RQ"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="FDU-Du-pa1"/>
-                                <include reference="dwD-T0-edl"/>
                                 <include reference="Gdp-xZ-Mm3"/>
                                 <include reference="bRq-Rf-eKO"/>
                                 <include reference="mfn-e1-XSA"/>
+                                <exclude reference="FDU-Du-pa1"/>
+                                <include reference="dwD-T0-edl"/>
                                 <include reference="v60-8G-LUR"/>
                             </mask>
                         </variation>

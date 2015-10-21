@@ -156,6 +156,7 @@
 		B5C170E11B4C4F1A00B9D4F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = NNM;
 				TargetAttributes = {
@@ -411,6 +412,7 @@
 				B5C1710A1B4C4F1A00B9D4F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C1710B1B4C4F1A00B9D4F3 /* Build configuration list for PBXNativeTarget "SizeClassTestTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +421,7 @@
 				B5C1710D1B4C4F1A00B9D4F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

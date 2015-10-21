@@ -25,7 +25,7 @@ class PetPicCollectionViewController: UICollectionViewController {
     
     func fetchPetData() {
         
-        println("fetch pet: \(pet)")
+        print("fetch pet: \(pet)")
         
         let url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=2f5b0e5d58e344d55cfb9aec4c9a89fe&text=cute+\(pet)&format=json&extras=url_s,url_l&nojsoncallback=1&per_page=10"
         
@@ -35,7 +35,7 @@ class PetPicCollectionViewController: UICollectionViewController {
         
         // println(NSString(data: jsonData!, encoding: NSUTF8StringEncoding))
         
-        if let json = NSJSONSerialization.JSONObjectWithData(jsonData!, options: nil, error: nil) as? NSDictionary {
+        if let json = (try? NSJSONSerialization.JSONObjectWithData(jsonData!, options: [])) as? NSDictionary {
             
             if let photosJson = json["photos"] as? NSDictionary {
                 pets = photosJson["photo"] as? [NSDictionary]                
@@ -91,8 +91,8 @@ class PetPicCollectionViewController: UICollectionViewController {
         if segue.identifier == "petView" {
             
             let petViewCtrl = segue.destinationViewController as? PetViewController
-            let row = collectionView?.indexPathsForSelectedItems()[0].row
-            petViewCtrl?.pet = pets?[row!]
+            let row = collectionView!.indexPathsForSelectedItems()![0].row
+            petViewCtrl?.pet = pets?[row]
             
         }
         

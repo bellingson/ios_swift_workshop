@@ -156,6 +156,7 @@
 		B517B86A1B3DDC630077BD08 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = NNM;
 				TargetAttributes = {
@@ -411,6 +412,7 @@
 				B517B8931B3DDC630077BD08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B517B8941B3DDC630077BD08 /* Build configuration list for PBXNativeTarget "WebBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +421,7 @@
 				B517B8961B3DDC630077BD08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

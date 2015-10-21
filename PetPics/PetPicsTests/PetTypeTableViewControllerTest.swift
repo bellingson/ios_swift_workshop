@@ -17,7 +17,7 @@ class PetTypeTableViewControllerTest: XCTestCase {
     override func setUp() {
         super.setUp()
 
-        var storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: NSBundle(forClass: self.dynamicType))
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: NSBundle(forClass: self.dynamicType))
         controller = storyboard.instantiateViewControllerWithIdentifier("PetTypeVC") as? PetTypeTableViewController
         controller.loadView()
         
