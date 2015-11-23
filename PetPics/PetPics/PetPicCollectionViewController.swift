@@ -19,7 +19,7 @@ class PetPicCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        performInBackground( fetchPetData , callback: { collectionView?.reloadData() })
+        performInBackground( fetchPetData , callback: { self.collectionView?.reloadData() })
         
     }
     
