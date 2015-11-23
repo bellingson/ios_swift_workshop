@@ -44,9 +44,6 @@ class PetCollectionViewController: UICollectionViewController {
             return
         }
         
-        //let string = String(data: data, encoding: NSUTF8StringEncoding)
-        //print(string!)
-        
         do {
             
             let result: NSDictionary?
@@ -59,10 +56,10 @@ class PetCollectionViewController: UICollectionViewController {
             
         } catch let err as NSError {
             print("error parsing json: \(err.localizedDescription)")
+        } catch {
+            print("strange error parsing json")            
         }
 
-        
-        //print(petPics)
         
     }
     

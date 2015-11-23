@@ -18,6 +18,14 @@
 		B521A57D1C038772000A6DF0 /* PetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521A57C1C038772000A6DF0 /* PetCollectionViewCell.swift */; };
 		B521A5811C038B2B000A6DF0 /* UIViewController+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521A5801C038B2B000A6DF0 /* UIViewController+Background.swift */; };
 		B521A5831C038CDC000A6DF0 /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521A5821C038CDC000A6DF0 /* PetViewController.swift */; };
+		B5EE5C491C03C20300B32255 /* PetTypeTableViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE5C481C03C20300B32255 /* PetTypeTableViewControllerTest.swift */; };
+		B5EE5C4A1C03C22200B32255 /* PetTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521A5781C037D14000A6DF0 /* PetTypeTableViewController.swift */; };
+		B5EE5C4C1C03C22200B32255 /* UIViewController+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521A5801C038B2B000A6DF0 /* UIViewController+Background.swift */; };
+		B5EE5C4D1C03C22200B32255 /* PetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521A57C1C038772000A6DF0 /* PetCollectionViewCell.swift */; };
+		B5EE5C4E1C03C22200B32255 /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521A5821C038CDC000A6DF0 /* PetViewController.swift */; };
+		B5EE5C4F1C03C2E000B32255 /* PetCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521A57A1C03802E000A6DF0 /* PetCollectionViewController.swift */; };
+		B5EE5C501C03C36600B32255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521A54A1C037C64000A6DF0 /* AppDelegate.swift */; };
+		B5EE5C511C03C37300B32255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B521A54E1C037C64000A6DF0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,7 @@
 		B521A57C1C038772000A6DF0 /* PetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCollectionViewCell.swift; sourceTree = "<group>"; };
 		B521A5801C038B2B000A6DF0 /* UIViewController+Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Background.swift"; sourceTree = "<group>"; };
 		B521A5821C038CDC000A6DF0 /* PetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetViewController.swift; sourceTree = "<group>"; };
+		B5EE5C481C03C20300B32255 /* PetTypeTableViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTypeTableViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +133,7 @@
 			children = (
 				B521A55F1C037C64000A6DF0 /* PetPics1Tests.swift */,
 				B521A5611C037C64000A6DF0 /* Info.plist */,
+				B5EE5C481C03C20300B32255 /* PetTypeTableViewControllerTest.swift */,
 			);
 			path = PetPics1Tests;
 			sourceTree = "<group>";
@@ -251,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EE5C511C03C37300B32255 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +292,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EE5C501C03C36600B32255 /* AppDelegate.swift in Sources */,
 				B521A5601C037C64000A6DF0 /* PetPics1Tests.swift in Sources */,
+				B5EE5C4D1C03C22200B32255 /* PetCollectionViewCell.swift in Sources */,
+				B5EE5C4C1C03C22200B32255 /* UIViewController+Background.swift in Sources */,
+				B5EE5C491C03C20300B32255 /* PetTypeTableViewControllerTest.swift in Sources */,
+				B5EE5C4A1C03C22200B32255 /* PetTypeTableViewController.swift in Sources */,
+				B5EE5C4E1C03C22200B32255 /* PetViewController.swift in Sources */,
+				B5EE5C4F1C03C2E000B32255 /* PetCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +518,7 @@
 				B521A5711C037C64000A6DF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B521A5721C037C64000A6DF0 /* Build configuration list for PBXNativeTarget "PetPics1Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +527,7 @@
 				B521A5741C037C64000A6DF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B521A5751C037C64000A6DF0 /* Build configuration list for PBXNativeTarget "PetPics1UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +536,7 @@
 				B521A5771C037C64000A6DF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

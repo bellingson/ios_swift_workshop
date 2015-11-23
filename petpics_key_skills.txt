@@ -1,0 +1,60 @@
+Classes
+
+- PetTypeTableViewController
+- PetCollectionViewController
+- PetViewController
+- PetCollectionViewCell
+
+Key Skills
+
+View 1 - table view
+- add table view to storyboard
+- specify storyboard initial view controller
+- associate controller class to storyboard view
+- specify table cell identifier
+- specify number of sections and rows in table
+- assign values to table cell views
+- embed table view in navigation controller
+
+View 2 - part 1 - collection view
+- add collection view to storyboard
+- create collection view controller
+- create segue from table view to collection view
+- specify collection view cell identifier
+- size the cell view to 175x175
+- add uiimageview to cell
+- implement prepareForSegue in table view
+- specify segue identifier
+- specify number of sections and items in collection view
+- fetch NSData from URL
+- create CollectionViewCell class
+- populate imageView with image from url
+
+View 2 - part 2 - load data async
+- create an class extension
+	- performInBackground function
+	- fetchImage function
+
+View 3 - pet view
+- add view controller to storyboard
+- create segue from collection view to pet view
+- add image and title label to view
+- add constraints to make image fullscreen		
+- add constraints to make label stick to top of view
+- create view controller class
+- add image and label outlets
+- implement viewDidLoad function
+- specifiy segue identifier
+- implement prepareForSegue
+- load image and title
+
+
+
+
+
+
+
+
+
+
+
